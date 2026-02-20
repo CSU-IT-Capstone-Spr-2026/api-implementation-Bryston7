@@ -20,7 +20,7 @@ def get_latest_comic():
     except requests.exceptions.RequestException as e:
         print(f"Network error: {e}")
         return None
-
+ 
 
 def get_comic_by_number(comic_num):
     # Fetch a specific XKCD comic by its number. Takes argument comic_num (int): The comic number to fetch
